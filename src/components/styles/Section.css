@@ -1,0 +1,31 @@
+.sections {
+  background-color: #846267;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+.section_content {
+  width: 70%;
+  height: 100%;
+  padding: 40px;
+}
+.section_content h1 {
+  color: #d89a9e;
+  padding: 20px;
+}
+.section_content p {
+  background-color: #f1f1f1;
+  width: 60%;
+  margin: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  margin-left: 40%;
+  box-shadow: 10px 10px #c37d92;
+  &:hover {
+    background-color: #d89a9e;
+  }
+}
+p:hover {
+  color: white;
+}
